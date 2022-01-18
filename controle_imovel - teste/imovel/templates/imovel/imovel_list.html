@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Imóvel</title>
+</head>
+<body>
+    <h1>Lista de Imóvel</h1>
+    <ul>
+        {% for imovel in object_list %}
+            <li>{{ codigo_imovel }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
